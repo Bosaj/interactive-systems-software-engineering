@@ -1,0 +1,72 @@
+.app { 
+  font-family: sans-serif; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  flex-direction: column; 
+  height: 100vh; 
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif; 
+  background-color: #f8f9fd; 
+} 
+
+.login-form { 
+  background-color: white; 
+  padding: 2rem; 
+} 
+
+input[type="text"], input[type="password"], select {
+  height: 25px; 
+  width: 250px; 
+  border: 1px solid rgba(0, 0, 0, 0.2); 
+  margin-bottom: 10px; 
+} 
+
+input[type="submit"] { 
+  margin-top: 10px; 
+  cursor: pointer; 
+  font-size: 15px; 
+  background: #01d28e; 
+  border: 1px solid #01d28e; 
+  color: #fff; padding: 10px 20px; 
+} 
+
+input[type="submit"]:hover { 
+  background: #6cf0c2; 
+} 
+
+.button-container { 
+  display: flex; 
+  justify-content: center; 
+  margin-bottom: 10px; 
+} 
+
+.error { 
+  color: red; 
+  font-size: 15px; 
+  margin-bottom: 10px; 
+} 
+
+.title { 
+  font-size: 30px; 
+  margin-bottom: 20px; 
+  text-align: center; 
+}
+
+.input-container { 
+  display: flex; 
+  flex-direction: column; 
+  gap: 8px; 
+  margin-bottom: 10px; 
+}
+
+.radio-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.checkbox-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frequency Counter</title>
+</head>
+<body>
+    <div id="output"></div>
+
+    <script>
+        const countFrequency = (array) => {
+            return array.reduce((acc, currentValue) => {
+                acc[currentValue] = (acc[currentValue] || 0) + 1;
+                return acc;
+            }, {});
+        };
+
+        const inputArray = ['a', 'b', 'c', 'a', 'b', 'a', 'c', 'd'];
+        const frequencyObject = countFrequency(inputArray);
+        
+        const outputDiv = document.getElementById('output');
+        outputDiv.innerText = JSON.stringify(frequencyObject);
+    </script>
+</body>
+</html>

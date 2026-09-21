@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noms Complets</title>
+</head>
+<body>
+    <div id="output"></div>
+
+    <script>
+        const formatNomsComplets = (personnes) => {
+            return personnes.map(personne => `${personne.prenom} ${personne.nom}`);
+        };
+
+        const personnes = [
+            { prenom: 'Ahmed', nom: 'ALAMI' },
+            { prenom: 'Fatima', nom: 'ALAOUI'},
+            { prenom: 'Karim', nom: 'BAGHDADI'}
+        ];
+
+        const nomsComplets = formatNomsComplets(personnes);
+        document.getElementById('output').innerText = JSON.stringify(nomsComplets);
+    </script>
+</body>
+</html>

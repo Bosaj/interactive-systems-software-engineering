@@ -1,0 +1,45 @@
+#principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center; 
+}
+
+div[id^='produit'] {
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    width: 200px; 
+    margin: 10px; 
+}
+
+div[id^='produit']:hover{
+    -ms-transform: scale(1.1); 
+    -webkit-transform: scale(1.1); 
+    transform: scale(1.1); 
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    margin: 0; 
+}
+
+h1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button {
+    padding: 7px 10px;
+    border-radius: 7px;
+    outline: none; 
+    border: 0; 
+    text-transform: uppercase;
+    margin-top: 10px; 
+    cursor: pointer;
+    box-shadow: 4px 2px 2px lightgray;
+    background-color: rgb(232, 230, 247);
+}

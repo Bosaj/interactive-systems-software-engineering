@@ -1,0 +1,14 @@
+ul {
+  list-style: none;
+}
+
+.posts-container {
+  padding: 10px;
+}
+
+.post-card {
+  border: 1px #CCC solid;
+  border-radius: 5px;
+  padding: 0 10px 10px 10px;
+  margin-bottom: 10px;
+}
