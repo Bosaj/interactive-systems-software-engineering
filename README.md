@@ -11,8 +11,8 @@
 <!-- Quality & Community Badges -->
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square" alt="MIT License" /></a>
-  <a href="https://github.com/Bosaj/eniad-software-engineering-ihm/actions"><img src="https://img.shields.io/badge/CI%20Pipeline-Passing-brightgreen?style=flat-square&logo=githubactions" alt="CI Status" /></a>
-  <a href="https://github.com/Bosaj/eniad-software-engineering-ihm/stargazers"><img src="https://img.shields.io/github/stars/Bosaj/eniad-software-engineering-ihm?style=flat-square&logo=github&color=00d9ff" alt="Stars" /></a>
+  <a href="https://github.com/Bosaj/interactive-systems-software-engineering/actions"><img src="https://img.shields.io/badge/CI%20Pipeline-Passing-brightgreen?style=flat-square&logo=githubactions" alt="CI Status" /></a>
+  <a href="https://github.com/Bosaj/interactive-systems-software-engineering/stargazers"><img src="https://img.shields.io/github/stars/Bosaj/interactive-systems-software-engineering?style=flat-square&logo=github&color=00d9ff" alt="Stars" /></a>
   <a href="https://github.com/users/Bosaj/projects/36"><img src="https://img.shields.io/badge/Project_Board-Project_36-blue?style=flat-square&logo=github" alt="Project Board" /></a>
   <a href="https://github.com/stars/Bosaj/lists/eniad-academic-projects"><img src="https://img.shields.io/badge/Curated_List-ENIAD_Academic_Projects-gold?style=flat-square&logo=github" alt="Curated List" /></a>
   <img src="https://img.shields.io/badge/Institution-ENIAD%20Berkane-FF6B00?style=flat-square" alt="ENIAD Berkane" />
@@ -79,7 +79,7 @@ Comprehensive architectural explanations, step-by-step lab walk-throughs, and me
 - **In-Repository Wiki Mirror**: [`docs/wiki/Home.md`](docs/wiki/Home.md)
 - **Architecture Overview**: [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md)
 - **Curriculum Matrix**: [`docs/CURRICULUM_MATRIX.md`](docs/CURRICULUM_MATRIX.md)
-- **GitHub Wiki**: [https://github.com/Bosaj/eniad-software-engineering-ihm/wiki](https://github.com/Bosaj/eniad-software-engineering-ihm/wiki)
+- **GitHub Wiki**: [https://github.com/Bosaj/interactive-systems-software-engineering/wiki](https://github.com/Bosaj/interactive-systems-software-engineering/wiki)
 
 ---
 
@@ -93,8 +93,8 @@ Comprehensive architectural explanations, step-by-step lab walk-throughs, and me
 
 ### Installation & Cloning
 ```bash
-git clone https://github.com/Bosaj/eniad-software-engineering-ihm.git
-cd eniad-software-engineering-ihm
+git clone https://github.com/Bosaj/interactive-systems-software-engineering.git
+cd interactive-systems-software-engineering
 ```
 
 ---

@@ -16,8 +16,8 @@ Follow this comprehensive guide to set up your local development environment for
 ## 📥 Cloning & Running
 
 ```bash
-git clone https://github.com/Bosaj/eniad-software-engineering-ihm.git
-cd eniad-software-engineering-ihm
+git clone https://github.com/Bosaj/interactive-systems-software-engineering.git
+cd interactive-systems-software-engineering
 ```
 
 ### Running React / Expo IHM Projects:

@@ -1,7 +1,7 @@
 # Welcome to the ENIAD Software Engineering & Interactive Systems (Semestre 6) Wiki 📖
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
-[![Institution: ENIAD Berkane](https://img.shields.io/badge/Institution-ENIAD%20Berkane-FF6B00?style=flat-square)](https://github.com/Bosaj/eniad-software-engineering-ihm)
+[![Institution: ENIAD Berkane](https://img.shields.io/badge/Institution-ENIAD%20Berkane-FF6B00?style=flat-square)](https://github.com/Bosaj/interactive-systems-software-engineering)
 [![Project Board](https://img.shields.io/badge/Project_Board-Project_36-blue?style=flat-square&logo=github)](https://github.com/users/Bosaj/projects/36)
 
 Welcome to the official technical documentation and laboratory guide for **ENIAD Software Engineering & Interactive Systems (Semestre 6)**.

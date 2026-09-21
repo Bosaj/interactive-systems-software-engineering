@@ -1,5 +1,5 @@
 {
-  "name": "eniad-software-engineering-ihm",
+  "name": "interactive-systems-software-engineering",
   "image": "mcr.microsoft.com/devcontainers/python:3.12-bookworm",
   "customizations": {
     "vscode": {
