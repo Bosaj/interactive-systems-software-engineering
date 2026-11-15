@@ -1,5 +1,5 @@
 # Stage 1: Prepare curated static web and systems lab bundle
-FROM python:3.12-alpine AS builder
+FROM python:3.15-alpine AS builder
 
 WORKDIR /stage
 COPY . .
