@@ -2,9 +2,9 @@
 
 from __future__ import annotations
 
+import time
 from collections import deque
 from collections.abc import Mapping, Sequence
-import time
 
 from .contracts import (
     AllocationResult,
@@ -303,8 +303,7 @@ class ResourceOptimizer:
                 dp[i][w] = dp[i - 1][w]
                 if item.weight <= w:
                     cand = dp[i - 1][w - item.weight] + item.value
-                    if cand > dp[i][w]:
-                        dp[i][w] = cand
+                    dp[i][w] = max(dp[i][w], cand)
 
         chosen: list[str] = []
         w = capacity

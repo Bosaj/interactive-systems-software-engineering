@@ -2,15 +2,15 @@
 
 from __future__ import annotations
 
-from pathlib import Path
 import sys
 import unittest
+from pathlib import Path
 
 SRC_DIR = str(Path(__file__).resolve().parents[1] / "src")
 if SRC_DIR not in sys.path:
     sys.path.insert(0, SRC_DIR)
 
-from interactive_sys import (  # noqa: E402
+from interactive_sys import (
     CpuSchedulerEngine,
     ExpressionLexerParser,
     InMemoryMetricsSink,
@@ -20,7 +20,7 @@ from interactive_sys import (  # noqa: E402
     ServiceContainer,
     ValidationError,
 )
-from interactive_sys.contracts import InMemorySimulationRepository  # noqa: E402
+from interactive_sys.contracts import InMemorySimulationRepository
 
 
 def _build_container() -> ServiceContainer:
